@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+</head>
+
+<body>
+Content of the document......
+<h1>My APP</h1>
+<%= title %>
+
+	<ul>
+		<% for( var i = 0 ; i < items.length ; i++ ){ %>
+
+			<li><%= items[i].desc %></li>
+		<%} %>
+
+	</ul>
+
+	<form action="/add" method="post">
+	<input type="text" name="tt">
+	<input type=submit value="save">
+
+
+	</form>
+
+</body>
+
+</html>
