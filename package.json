@@ -1,0 +1,21 @@
+{
+  "name": "express-setup",
+  "version": "1.0.0",
+  "description": "How to set initial setup",
+  "main": "app.js",
+  "dependencies": {
+    "nodemon": "^1.3.7",
+    "ejs": "^2.3.1",
+    "express": "^4.12.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Manish Nakar",
+  "license": "ISC"
+}
